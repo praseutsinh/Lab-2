@@ -1,10 +1,11 @@
+
 """
 Nikolas Praseutsinh
 Python Programming 2026
 Due: September 15, 2026
 Lab 2: Introduction to Python Programming
 Write a Python Program that uses turtle graphics to draw a flower like shape using squares.
-""""
+"""
 import turtle
 
 t = turtle.Turtle()
@@ -26,4 +27,3 @@ def drawFlower(numSquares):
         t.right(360 / numSquares)
 
 drawFlower(9)
-
